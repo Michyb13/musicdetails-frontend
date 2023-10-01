@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+
+body {
+  background-color: #ffc0cb;
+  font-family: "Poppins", sans-serif;
+}
+
+.app {
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+}
+.app-container {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.8rem;
+  max-width: 600px;
+}
+.form-page {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+.form-details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1.8rem;
+}
+
+form input {
+  width: 85%;
+  padding: 0.6rem;
+  font-size: 1.3rem;
+  outline: none;
+}
+
+form label {
+  margin-bottom: 0.5rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+form button {
+  width: 30%;
+  padding: 0.6rem;
+  background-color: #ffffff;
+  border: 2px solid #00008b;
+  border-radius: 15px;
+  outline: none;
+  font-size: 1rem;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #00008b;
+  color: #ffffff;
+}
+.card {
+  width: 80%;
+  border: 2px solid #00008b;
+  border-radius: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-details button {
+  margin-left: 15px;
+  padding: 0.6rem;
+  background-color: #ffc0cb;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #00008b;
+}
+
+.card-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-details p {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 1.2rem;
+}
+
+.card-details h2 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.error {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ff0000;
+  text-align: center;
+}
